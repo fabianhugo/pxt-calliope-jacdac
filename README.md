@@ -13,7 +13,14 @@ Diese Erweiterung stellt die Onboardsensoren des Calliope mini V3 über die Jacd
 Einige Sachen laufen noch nicht! Hilfe/Fehlermeldungen/Tipps/Pull-requests erwünscht
 
 
+![Screenshot](Onboardsensors.png)
+
+## License
+
+MIT License
+
+Copyright (c) 2023 M. Klein
+
 #### Metadaten (verwendet für Suche, Rendering)
 
 * for PXT/calliopemini
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
