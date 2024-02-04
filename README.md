@@ -1,22 +1,17 @@
 
 > Diese Seite bei [https://mkleinsb.github.io/pxt-calliope-jacdac/](https://mkleinsb.github.io/pxt-calliope-jacdac/) öffnen
 
-## Als Erweiterung verwenden
+# calliope-jacdac
 
-Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
+Diese Erweiterung stellt die Onboardsensoren des Calliope mini V3 über die Jacdacschnittstelle zur Verfügung:
+* Temperatur in Grad Cesius
+* Helligkeit in %
+* Magnetfeld -100% bis 100%
+* Beschleunigung in x-,y-,z-Richtung in g
+* Lautstärke in %
 
-* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* klicke auf **Neues Projekt**
-* klicke auf **Erweiterungen** unter dem Zahnrad-Menü
-* nach **https://github.com/mkleinsb/pxt-calliope-jacdac** suchen und importieren
+Einige Sachen laufen noch nicht! Hilfe/Fehlermeldungen/Tipps/Pull-requests erwünscht
 
-## Dieses Projekt bearbeiten
-
-Um dieses Repository in MakeCode zu bearbeiten.
-
-* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
-* klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/mkleinsb/pxt-calliope-jacdac** ein und klicke auf Importieren
 
 #### Metadaten (verwendet für Suche, Rendering)
 
