@@ -74,7 +74,7 @@ namespace servers {
             jacdac.createMultiSensorServer(
                 jacdac.SRV_ACCELEROMETER,
                 jacdac.AccelerometerRegPack.Forces,
-                () => [-input.acceleration(Dimension.X) / 255.0, input.acceleration(Dimension.Y) / 255.0, input.acceleration(Dimension.Z) / 255.0],
+                () => [-input.acceleration(Dimension.X) / 255.0, input.acceleration(Dimension.Y) / 255.0, -input.acceleration(Dimension.Z) / 255.0],
             ), // Warum Dimension.X negativ!? Fehler in Jacdac?
         ])
     }
