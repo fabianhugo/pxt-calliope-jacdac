@@ -58,7 +58,7 @@ namespace servers {
             jacdac.createSimpleSensorServer(
                 jacdac.SRV_MAGNETIC_FIELD_LEVEL,
                 jacdac.MagneticFieldLevelRegPack.Strength,
-                () => input.magneticForce(Dimension.Z) / 255,
+                () => -input.magneticForce(Dimension.Z) / 255,
             ),
         ])
 
